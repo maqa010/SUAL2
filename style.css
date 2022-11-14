@@ -1,0 +1,39 @@
+{
+    margin: 0;
+}
+.container{
+    background-image: url("https://ugc.berkeley.edu/wp-content/uploads/2016/01/thunderstorm-3625405_1920.jpg");
+    color: white;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+}
+.firstDiv{
+    font-size: 40px;
+}
+.texts{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+   
+}
+.texts p{
+    padding: 10px;
+    margin: 0;
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    height: 100%;
+    font-weight: 900;
+}
+.header{
+    position: fixed;
+    width: 100%;
+}
+section{
+    height: 100vh;
+}
